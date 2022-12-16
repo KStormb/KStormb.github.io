@@ -1,0 +1,59 @@
+span {
+  color: lightcoral;
+}
+#SA {
+  color: silver;
+}
+.dropcap {
+  color: white;
+}
+ol > li{
+  color: white;
+}
+.vid-insert{
+  background-color: green;
+}
+.Concern {
+  background-color: grey;
+}
+h2 ~ P {
+  color: black;
+}
+.vid-insert > p {
+  color: white;
+}
+.Stormy {
+  background-color: darkcyan;
+}
+p {
+  color: white;
+}
+nav a {
+  [COLOR="Red"]padding-right: 500px;[/COLOR] 
+}
+div.grid-container {
+  background-color: aquamarine;
+}
+a {
+  color: purple;
+}
+header {
+  background-color: mediumslateblue;
+  color: white;
+}
+.image-cell-Taravangian + p {
+  color: black;
+}
+#CText {
+  color: red;
+  background-color: gold;
+}
+ul + p {
+  color: green;
+}
+@media (max-width: 750px) {
+  /* … */
+  div.grid-container {
+    background-color: aquamarine;
+  }   
+}

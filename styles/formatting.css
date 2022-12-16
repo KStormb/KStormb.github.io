@@ -1,0 +1,163 @@
+* {
+  padding: 5px;
+}
+span {
+  font-size: 120%;
+}
+main > h2:nth-of-type(1) {
+  text-decoration: underline;
+  font-size: 2em;
+}
+#SA {
+  font-size: 6em;
+}
+.dropcap {
+  font-size: 1.4em;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+main > p:nth-of-type(1) {
+  font-size: 1.2em;
+}
+h1 {
+  font-size: 7em;
+  text-align: center;
+}
+h3 {            
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 6em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+h2 + p {
+  font-size: 130%;
+}
+
+ol > li{
+  margin-left: 1em;
+}
+.vid-insert{
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Concern {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vid-insert > p {
+  font-size: 1.5em;
+}
+nav a {
+  font-size: 3em; 
+  display: inline;
+  [COLOR="Red"]padding-right: 500px;[/COLOR] 
+}      
+table {            
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px solid green;
+}
+.standard-pic {
+  width: 200px;
+  height: auto;
+}  
+tr, td, th {
+  border: 5px solid black;
+  font-size: 1.25em;
+}
+/*      NOTE: I couldn't make the table work the way I wanted without having the colors be on the same page as the formatting for the table elements specifically. In case you we're wondering why I left it like that. - MD     */
+td {
+  text-align: center;
+}         
+caption {
+  font-size: 2em;
+}
+div.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat (5, 1fr);
+  grid-template-areas: none;
+  grid-area: auto;
+  width: 100%;
+}
+a {
+  font-size: 1.5em;
+}
+header {
+  padding: 1.5em;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.image-cell-Taravangian {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-cell-Taravangian + p {
+  font-size: 1.8em;
+  font-style: italic;
+  padding: 2px;
+  padding-right: 4px;
+}
+.image-cell-Taravangian > img {
+  width: 600px; 
+}
+#CText {
+  font-size: 1.25em;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  flex-direction: row;
+}
+li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.super-shrink {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: auto;
+}
+.super-grow {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.CL {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+}
+.covers {
+  max-width: 600px;
+  max-height: 600px;
+}
+@media (max-width: 750px) {
+    /* … */
+    div.grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat (5, 1fr);
+    }   
+}
